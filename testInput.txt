@@ -1,0 +1,7 @@
+maxQueueLength        20
+numServicePoints      3
+closingTime           100
+maxServiceTime        5
+mean                  5.0
+leaveChance           0.1
+boredomChanceIncrease 0.05

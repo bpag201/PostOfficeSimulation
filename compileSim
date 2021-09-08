@@ -1,0 +1,7 @@
+gcc -ansi -c util_queue.c -o util_queue.o
+gcc -ansi -c util_person.c -o util_person.o
+gcc -ansi -c util_generator.c -o util_generator.o
+gcc -ansi -c util_service_point.c -o util_service_point.o
+gcc -ansi -c util_linked_list.c -o util_linked_list.o
+gcc -ansi -c simQ.c -o simQ.o
+gcc util_queue.o util_person.o util_generator.o util_service_point.o util_linked_list.o simQ.o -lgsl -lgslcblas -o simQ
